@@ -1,0 +1,75 @@
+<style>
+.radio-block {
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 500px;
+  margin: 40px auto 40px auto;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.radio-block h2 {
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.radio-section {
+  margin-bottom: 18px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 12px;
+}
+.radio-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.radio-title {
+  font-size: 1.1em;
+  color: #2563eb;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+audio {
+  width: 100%;
+  margin-top: 2px;
+}
+</style>
+<div class="radio-block">
+  <h2>Escuchá Nuestras Radios</h2>
+  <div class="radio-section">
+    <div class="radio-title">Radio 1 - Rock</div>
+    <audio controls>
+      <source src="http://TU_SERVIDOR:8000/radio1" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
+  <div class="radio-section">
+    <div class="radio-title">Radio 2 - Pop</div>
+    <audio controls>
+      <source src="http://TU_SERVIDOR:8000/radio2" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
+  <div class="radio-section">
+    <div class="radio-title">Radio 3 - Clásicos</div>
+    <audio controls>
+      <source src="http://TU_SERVIDOR:8000/radio3" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
+  <div class="radio-section">
+    <div class="radio-title">Radio 4 - Electrónica</div>
+    <audio controls>
+      <source src="http://TU_SERVIDOR:8000/radio4" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
+  <div class="radio-section">
+    <div class="radio-title">Radio 5 - Noticias</div>
+    <audio controls>
+      <source src="http://TU_SERVIDOR:8000/radio5" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
+</div>
